@@ -213,6 +213,9 @@
   .mt-0 {
     margin-top: calc(var(--spacing) * 0);
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -233,6 +236,9 @@
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
+  }
+  .mt-13 {
+    margin-top: calc(var(--spacing) * 13);
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
@@ -285,8 +291,29 @@
   .h-\[262px\] {
     height: 262px;
   }
+  .w-\[4\] {
+    width: 4;
+  }
+  .w-\[5\%\] {
+    width: 5%;
+  }
+  .w-\[48\%\] {
+    width: 48%;
+  }
+  .w-\[49\] {
+    width: 49;
+  }
+  .w-\[50\%\] {
+    width: 50%;
+  }
   .w-\[50px\] {
     width: 50px;
+  }
+  .w-\[55\%\] {
+    width: 55%;
+  }
+  .w-\[60\%\] {
+    width: 60%;
   }
   .w-\[80px\] {
     width: 80px;
@@ -314,6 +341,9 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
@@ -520,6 +550,9 @@
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
   }
+  .text-\[3\] {
+    color: 3;
+  }
   .text-\[25\] {
     color: 25;
   }
@@ -674,6 +707,11 @@
   .lg\:hidden {
     @media (width >= 64rem) {
       display: none;
+    }
+  }
+  .lg\:w-\[25\%\] {
+    @media (width >= 64rem) {
+      width: 25%;
     }
   }
   .lg\:w-\[48\%\] {
